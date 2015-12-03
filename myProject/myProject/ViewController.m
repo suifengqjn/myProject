@@ -7,9 +7,11 @@
 //
 
 #import "ViewController.h"
-
+#import <ReactiveCocoa.h>
 @interface ViewController ()
 
+@property (nonatomic, copy  ) NSString *str;
+@property (nonatomic, strong) NSArray  *arr;
 @end
 
 @implementation ViewController
@@ -17,6 +19,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    NSLog(@"sss");
+    
+    
 }
 
 - (void)didReceiveMemoryWarning {
