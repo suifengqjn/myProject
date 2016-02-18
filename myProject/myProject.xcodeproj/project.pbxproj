@@ -10,9 +10,9 @@
 		C218E7FC1C0D796800A0BD43 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C218E7FB1C0D796800A0BD43 /* main.m */; };
 		C218E7FF1C0D796800A0BD43 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C218E7FE1C0D796800A0BD43 /* AppDelegate.m */; };
 		C218E8021C0D796800A0BD43 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C218E8011C0D796800A0BD43 /* ViewController.m */; };
-		C218E8051C0D796800A0BD43 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C218E8031C0D796800A0BD43 /* Main.storyboard */; };
 		C218E8071C0D796800A0BD43 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C218E8061C0D796800A0BD43 /* Assets.xcassets */; };
 		C218E80A1C0D796800A0BD43 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C218E8081C0D796800A0BD43 /* LaunchScreen.storyboard */; };
+		C21E02B61C63277700938956 /* TBHomeTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = C21E02B51C63277700938956 /* TBHomeTabBarController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,10 +22,11 @@
 		C218E7FE1C0D796800A0BD43 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		C218E8001C0D796800A0BD43 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		C218E8011C0D796800A0BD43 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		C218E8041C0D796800A0BD43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C218E8061C0D796800A0BD43 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C218E8091C0D796800A0BD43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C218E80B1C0D796800A0BD43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C21E02B41C63277700938956 /* TBHomeTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBHomeTabBarController.h; sourceTree = "<group>"; };
+		C21E02B51C63277700938956 /* TBHomeTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBHomeTabBarController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,9 +61,10 @@
 			children = (
 				C218E7FD1C0D796800A0BD43 /* AppDelegate.h */,
 				C218E7FE1C0D796800A0BD43 /* AppDelegate.m */,
+				C21E02B41C63277700938956 /* TBHomeTabBarController.h */,
+				C21E02B51C63277700938956 /* TBHomeTabBarController.m */,
 				C218E8001C0D796800A0BD43 /* ViewController.h */,
 				C218E8011C0D796800A0BD43 /* ViewController.m */,
-				C218E8031C0D796800A0BD43 /* Main.storyboard */,
 				C218E8061C0D796800A0BD43 /* Assets.xcassets */,
 				C218E8081C0D796800A0BD43 /* LaunchScreen.storyboard */,
 				C218E80B1C0D796800A0BD43 /* Info.plist */,
@@ -105,6 +107,7 @@
 		C218E7EF1C0D796800A0BD43 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = TB;
 				LastUpgradeCheck = 0710;
 				ORGANIZATIONNAME = sf;
 				TargetAttributes = {
@@ -138,7 +141,6 @@
 			files = (
 				C218E80A1C0D796800A0BD43 /* LaunchScreen.storyboard in Resources */,
 				C218E8071C0D796800A0BD43 /* Assets.xcassets in Resources */,
-				C218E8051C0D796800A0BD43 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -151,6 +153,7 @@
 			files = (
 				C218E8021C0D796800A0BD43 /* ViewController.m in Sources */,
 				C218E7FF1C0D796800A0BD43 /* AppDelegate.m in Sources */,
+				C21E02B61C63277700938956 /* TBHomeTabBarController.m in Sources */,
 				C218E7FC1C0D796800A0BD43 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -158,14 +161,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		C218E8031C0D796800A0BD43 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C218E8041C0D796800A0BD43 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		C218E8081C0D796800A0BD43 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

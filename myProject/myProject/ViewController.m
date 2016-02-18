@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-#import <ReactiveCocoa.h>
+
 @interface ViewController ()
 
 @property (nonatomic, copy  ) NSString *str;
